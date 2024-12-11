@@ -1,11 +1,11 @@
 import { Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
-import Contact from "./pages/Contact";
-import About from "./pages/About";
-import Services from "./pages/Services";
-import { Navbar } from "./components/Navbar";
+import { Home } from "./pages/Home";
+import { Contact } from "./pages/Contact";
+import { About } from "./pages/About";
+import { Services } from "./pages/Services";
+import { Navbar }  from "./components/Navbar";
 
-function RouterPage() {
+function App() {
   return (
     <>
       <Navbar />
@@ -19,4 +19,4 @@ function RouterPage() {
   );
 }
 
-export default RouterPage;
+export default App;
